@@ -17,6 +17,9 @@
 3. Creating graphs
 4. Searching through data
 
+**What I need to work on**
+1. Creating a plot with # of venues in each city and showing a percentage of specials to venues
+
 
 
 ## Installing RStudio
