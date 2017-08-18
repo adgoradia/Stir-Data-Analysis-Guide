@@ -38,4 +38,21 @@ Once you have downloaded RStudio and followed the steps listed in the installer,
   - The Viewer has multiple functions, as shown by the available tabs. The "Files" tab displays all the files in your directory, the "Plots" tab displays any plots that you create, and the "Packages" tab displays a list of all the available packages in R with a short description of each one's function.
   
  
- # Installing Git
+# Installing Git
+To work with MongoDB data and various libraries in R, we will use Git, an extremely useful version control system. If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead. Git can be installed [here](https://git-scm.com/downloads).
+
+Other than installation, we don't deal with Git too much, so we can move on to the fun stuff, like MongoDB and Studio3T!
+
+
+# Installing MongoDB
+Mongo is an open source schemaless database system that is very different from the more popular MySQL. The most considerable differences are that MySQL is written using SQL Queries, whereas MongoDB is focused on BSON data (binary JSON). MongoDB can be downloaded [here](https://www.mongodb.com/download-center#community). When downloading, make sure to select the community server version that corresponds to your computer's operating system.
+
+###### Note:
+###### - MongoDB for Windows 64-bit runs only on Windows Server 2008 R2, Windows 7 64-bit, and newer versions of Windows. This build takes advantage of recent enhancements to the Windows Platform and cannot operate on older versions of Windows.
+###### - MongoDB for Windows 64-bit Legacy runs on Windows Vista, and Windows Server 2008 and does not include recent performance enhancements.
+
+To find out which version of Windows you are running, enter the following commands on Command Prompt
+```
+wmic os get caption
+wmic os get osarchitecture
+```
