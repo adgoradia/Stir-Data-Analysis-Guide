@@ -47,7 +47,7 @@ Other than installation, we don't deal with Git too much, so we can move on to t
 # Installing MongoDB
 Mongo is an open source schemaless database system that is very different from the more popular MySQL. The most considerable differences are that MySQL is written using SQL Queries, whereas MongoDB is focused on BSON data (binary JSON). MongoDB can be downloaded [here](https://www.mongodb.com/download-center#community). When downloading, make sure to select the community server version that corresponds to your computer's operating system.
 
-###### Note:
+###### Notes:
 ###### - MongoDB for Windows 64-bit runs only on Windows Server 2008 R2, Windows 7 64-bit, and newer versions of Windows. This build takes advantage of recent enhancements to the Windows Platform and cannot operate on older versions of Windows.
 ###### - MongoDB for Windows 64-bit Legacy runs on Windows Vista, and Windows Server 2008 and does not include recent performance enhancements.
 
