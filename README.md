@@ -23,4 +23,4 @@
 
 
 ## Installing RStudio
-To work with data in R, we will use the RStudio IDE, a free and open-source software.
+To work with data in R, we will use the RStudio IDE, a free and open-source software. R is a free software environment for statistical computing and graphics, and it is extremely useful for providing valuable insights and experimenting with data. RStudio can be downloaded [here](https://www.rstudio.com/products/rstudio/download/)
