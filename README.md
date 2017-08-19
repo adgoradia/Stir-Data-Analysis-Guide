@@ -69,4 +69,28 @@ AFter installing OpenVPN, you'll need to contact Mike to help you get setup with
 After you receive your connection script, copy that file into your 'config' folder within the OpenVPN folder.
 
 ### Windows Users
-Your OpenVPN folder should have saved to your "C:/Program Files/" directory.
+Your OpenVPN folder should have saved to your "C:/Program Files/" directory. In command prompt, navigate to the 'config' folder in your OpenVPN folder through using these commands:
+```
+cd..
+cd name of folder
+```
+The "cd.." command will help you backtrack exactly one directory. For example, if you're in the "C:/Program Files/" directory, the "cd.." command will take you to the "C:/" directory. 
+
+The "cd name of folder" command will take you into a folder within the directory that you're in. For example, "cd Program Files" will take you to the "C:/Program Files" directory if you're in the "C:/" directory when you run the command.
+
+Once you've navigated to the 'config' folder within the OpenVPN folder, run the following line on command prompt
+```
+openvpn nameOfYourOpenVPNFile.ovpn
+```
+After this point, you should be connected to the server. To check, you can check the OpenVPN icon on your taskbar, or simply run this command
+```
+openvpn-gui --connect office.ovpn
+```
+If this returns a pop-up message stating that you're connected to the VPN, then voilà! If not, then the command will connect you to the VPN.
+
+You will then be prompted to enter your username and password to establish the connection. From now on, the OpenVPN icon will show up on your taskbar at the lower right hand corner of your screen. To disconnect/connect to the VPN, simply right-click on the icon and select your preference.
+
+### iOS Users
+To connect to OpenVPN Access Server using the Connect Client you will need to navigate to the Connect Client for your particular access server. The url is usually https://yourvpnhostname.com.
+
+After entering your credentials you will be asked to download the installer: ![installer download](http://openvpn.net/images/howto/osxconnect/mac-openvpn-connnect-3.png)
