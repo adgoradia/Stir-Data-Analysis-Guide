@@ -74,9 +74,9 @@ Your OpenVPN folder should have saved to your "C:/Program Files/" directory. In 
 cd..
 cd name of folder
 ```
-The "cd.." command will help you backtrack exactly one directory. For example, if you're in the "C:/Program Files/" directory, the "cd.." command will take you to the "C:/" directory. 
+*The "cd.." command will help you backtrack exactly one directory. For example, if you're in the "C:/Program Files/" directory, the "cd.." command will take you to the "C:/" directory.* 
 
-The "cd name of folder" command will take you into a folder within the directory that you're in. For example, "cd Program Files" will take you to the "C:/Program Files" directory if you're in the "C:/" directory when you run the command.
+*The "cd name of folder" command will take you into a folder within the directory that you're in. For example, "cd Program Files" will take you to the "C:/Program Files" directory if you're in the "C:/" directory when you run the command.*
 
 Once you've navigated to the 'config' folder within the OpenVPN folder, run the following line on command prompt
 ```
