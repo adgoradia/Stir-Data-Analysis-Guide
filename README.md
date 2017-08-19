@@ -94,3 +94,9 @@ You will then be prompted to enter your username and password to establish the c
 To connect to OpenVPN Access Server using the Connect Client you will need to navigate to the Connect Client for your particular access server. The url is usually https://yourvpnhostname.com.
 
 After entering your credentials you will be asked to download the installer: ![installer download](http://openvpn.net/images/howto/osxconnect/mac-openvpn-connnect-3.png)
+
+After downloading and running the installer you will be prompted to continue with the installation: ![installation](http://openvpn.net/images/howto/osxconnect/mac-openvpn-connnect-4.png)
+
+Keep clicking continue and choose a destination to install the software to. After entering your credentials (this will be provided by Mike), you will be brought back to the browser and the client will begin running. You should see the OpenVPN GUI icon at the top right corner of your screen with a message saying that your connection has been established.
+
+From now on, to connect/disconnect to the server, simply click on the OpenVPN icon and select "connect" or "disconnect".
