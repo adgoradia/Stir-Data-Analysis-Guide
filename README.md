@@ -91,7 +91,7 @@ If this returns a pop-up message stating that you're connected to the VPN, then 
 You will then be prompted to enter your username and password to establish the connection. From now on, the OpenVPN icon will show up on your taskbar at the lower right hand corner of your screen. To disconnect/connect to the VPN, simply right-click on the icon and select your preference.
 
 ### iOS Users
-To connect to OpenVPN Access Server using the Connect Client you will need to navigate to the Connect Client for your particular access server. The url is usually https://yourvpnhostname.com.
+To connect to OpenVPN Access Server using the Connect Client you will need to navigate to the Connect Client for your particular access server. The url is usually "https://" + "yourvpnhostname.com".
 
 After entering your credentials you will be asked to download the installer: ![installer download](http://openvpn.net/images/howto/osxconnect/mac-openvpn-connnect-3.png)
 
@@ -103,6 +103,6 @@ From now on, to connect/disconnect to the server, simply click on the OpenVPN ic
 
 # Connecting to MongoDB through Studio3T
 Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database! 
-![image](C:\Users\Ayush\Downloads\image.png)
+![info](C:\Users\Ayush\Downloads\image.png?raw=true)
 
-After connecting, you should see the database and its collections on the left side of Studio3T. ![image](‪C:\Users\Ayush\Downloads\imag.png)
+After connecting, you should see the database and its collections on the left side of Studio3T. ![view](‪C:\Users\Ayush\Downloads\imag.png?raw=true)
