@@ -90,6 +90,15 @@ After connecting, you should see the database and its collections on the left si
 ![view](https://github.com/adgoradia/newGitTest/blob/master/imag.png)
 
 
+Now if you open an IntelliShell by clicking on it on the menu bar, you can run this script:
+```
+use stirapp-dev
+db.Venue.find()
+```
+###### This will return all the venues, along with their values in an organized format (you can specify the format by clicking on the dropdown menu at the top right corner of the output block)
+
+For an amazing resource to learn more about MongoDB scripts, commands, and tips, check out [this](https://www.youtube.com/watch?v=ynPAkZyH3R8&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO&index=3) video. Although he doesn't use the Studio3T client in his videos, all the steps are the same.
+
 # Step 7: Importing Data from MongoDB to RStudio
 When importing the MongoDB data to RStudio, it is imperative to consider the size of the data. Stir has an insanely large amount of data values (almost 2 million), so importing each one into RStudio will take an extremely long time. Thankfully, I was able to put together the entire dataset onto an excel file, which imports much faster into RStudio. Once you get to this step, please contact me on Slack, and I can send you the file. 
 
@@ -121,5 +130,7 @@ Please refer to the Helpful Resources section below! It has links to all the inf
 [Exploratory Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651): This link is a course about data analysis in R, taught by the data scientists at Facebook! I'd recommend going through the entire course if you can; However, to learn most of the information that you need to know for what you'll be doing, you only need to do the first 3 sections.
 
 [ggplot2 Library for RStudio](https://github.com/tidyverse/ggplot2): This link is a GitHub page that describes the entire ggplot2 package for RStudio. It's a really amazing tool for generating visual displays that are both aesthetic and analytically useful. The steps for installing the package are listed, so all you need to do is follow the steps and tips and you'll be set! 
+
+[MongoDB Tutorial](https://www.youtube.com/watch?v=ynPAkZyH3R8&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO&index=3): This video playlist is an amazing tool to learn MongoDB commands. Again, I'd recommend viewing all the videos, but you only need to watch videos 3-5 to follow what we're doing.
 
 **If you have any trouble with anything while following these steps, please don't hesitate to contact me on Slack! Hope this helps!**
