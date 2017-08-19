@@ -111,9 +111,9 @@ After connecting, you should see the database and its collections on the left si
 ![view](https://github.com/adgoradia/newGitTest/blob/master/imag.png)
 
 
-# Importing data from MongoDB database to RStudio into a dataframe
+# Importing data from MongoDB to RStudio
 When importing the MongoDB data to RStudio, it is imperative to consider the size of the data. Stir has an insanely large amount of data values (almost 2 million), so importing each one into RStudio will take an extremely long time. Thankfully, I was able to put together the entire dataset onto an excel file, which imports much faster into RStudio. Once you get to this step, please contact me on Slack, and I can send you the file. 
 
 Now to load the dataset in RStudio, you must download the dataset into your working directory. I'd recommend that you create another folder within your Documents folder called "Stir Data Analysis" for future use with R. 
 
-Next, create a 
+Next, create a R Script file (shown below) and save it to your "Stir Data Analysis" folder. ![img](https://github.com/adgoradia/newGitTest/blob/master/image%20(1).png)
