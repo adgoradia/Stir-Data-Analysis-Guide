@@ -2,7 +2,7 @@
 <img src="https://github.com/adgoradia/newGitTest/blob/master/StirDataAnalysisGuid.png">
 </p>
 
-# Installing RStudio
+# Step 1: Installing RStudio
 To work with data in R, we will use the RStudio IDE, a free and open-source software. R is a free software environment for statistical computing and graphics, and it is extremely useful for providing valuable insights and experimenting with data. RStudio can be downloaded [here](https://www.rstudio.com/products/rstudio/download/).
 
 ###### Notes:
@@ -17,13 +17,13 @@ Once you have downloaded RStudio and followed the steps listed in the installer,
   - The Viewer has multiple functions, as shown by the available tabs. The "Files" tab displays all the files in your directory, the "Plots" tab displays any plots that you create, and the "Packages" tab displays a list of all the available packages in R with a short description of each one's function.
   
  
-# Installing Git
+# Step 2: Installing Git
 To work with MongoDB data and various libraries in R, we will use Git, an extremely useful version control system. If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead. Git can be installed [here](https://git-scm.com/downloads).
 
 Other than installation, we don't deal with Git too much, so we can move on to the fun stuff, like MongoDB and Studio3T!
 
 
-# Installing MongoDB
+# Step 3: Installing MongoDB
 Mongo is an open source schemaless database system that is very different from the more popular MySQL. The most considerable differences are that MySQL is written using SQL Queries, whereas MongoDB is focused on BSON data (binary JSON). MongoDB can be downloaded [here](https://www.mongodb.com/download-center#community). When downloading, make sure to select the community server version that corresponds to your computer's operating system.
 
 ###### Notes:
@@ -36,11 +36,11 @@ wmic os get caption
 wmic os get osarchitecture
 ```
 
-# Installing Studio3T
+# Step 4: Installing Studio3T
 To work with our MongoDB data, we will use Studio3T, an open-source MongoDB client with a built-in shell to write scripts. Studio 3T can be downloaded [here](https://studio3t.com/download/). Although that the download states that Studio3T is free for only 14 days, it is actually free forever for non-commercial use! After opening up Studio3T, you will see a message bar at the bottom with an option to select usage types, so simply select "non-commercial" and you should be all set!
 
 
-# Installing OpenVPN
+# Step 5: Installing OpenVPN
 The last thing we need to install is OpenVPN, a tunnel that allows us to access to the MongoDB server through a secure connection. For Windows users, use [this link](https://openvpn.net/index.php/download/community-downloads.html) to install OpenVPN. If you're running iOS, the installation documentation can be found [here](https://openvpn.net/index.php/open-source/documentation/howto.html).
 
 AFter installing OpenVPN, you'll need to contact Mike to help you get setup with a script for your connection. The script should have an ".ovpn" extension.
@@ -80,7 +80,7 @@ Keep clicking continue and choose a destination to install the software to. Afte
 
 From now on, to connect/disconnect to the server, simply click on the OpenVPN icon and select "connect" or "disconnect".
 
-# Connecting to MongoDB through Studio3T
+# Step 6: Connecting to MongoDB through Studio3T
 Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database! 
 
 ![info](https://github.com/adgoradia/newGitTest/blob/master/image.png)
@@ -90,7 +90,7 @@ After connecting, you should see the database and its collections on the left si
 ![view](https://github.com/adgoradia/newGitTest/blob/master/imag.png)
 
 
-# Importing Data from MongoDB to RStudio
+# Step 7: Importing Data from MongoDB to RStudio
 When importing the MongoDB data to RStudio, it is imperative to consider the size of the data. Stir has an insanely large amount of data values (almost 2 million), so importing each one into RStudio will take an extremely long time. Thankfully, I was able to put together the entire dataset onto an excel file, which imports much faster into RStudio. Once you get to this step, please contact me on Slack, and I can send you the file. 
 
 Now to load the dataset in RStudio, you must download the dataset into your working directory. I'd recommend that you create another folder within your Documents folder called "Stir Data Analysis" for future use with R. 
