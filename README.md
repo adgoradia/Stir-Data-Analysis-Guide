@@ -100,3 +100,10 @@ After downloading and running the installer you will be prompted to continue wit
 Keep clicking continue and choose a destination to install the software to. After entering your credentials (this will be provided by Mike), you will be brought back to the browser and the client will begin running. You should see the OpenVPN GUI icon at the top right corner of your screen with a message saying that your connection has been established.
 
 From now on, to connect/disconnect to the server, simply click on the OpenVPN icon and select "connect" or "disconnect".
+
+# Connecting to MongoDB through Studio3T
+Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database!
+
+![information](https://files.slack.com/files-tmb/T3PGF0TDW-F6K7SCQCT-0ec6699f56/image_720.png)
+
+After connecting, you should see the database and its collections on the left side of Studio3T. ![view](https://files.slack.com/files-tmb/T3PGF0TDW-F6JL7M1C0-070d588653/image_720.png)
