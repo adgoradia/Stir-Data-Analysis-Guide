@@ -131,6 +131,6 @@ Please refer to the Helpful Resources section below! It has links to all the inf
 
 [ggplot2 Library for RStudio](https://github.com/tidyverse/ggplot2): This link is a GitHub page that describes the entire ggplot2 package for RStudio. It's a really amazing tool for generating visual displays that are both aesthetic and analytically useful. The steps for installing the package are listed, so all you need to do is follow the steps and tips and you'll be set! 
 
-[MongoDB Tutorial](https://www.youtube.com/watch?v=ynPAkZyH3R8&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO&index=3): This video playlist is an amazing tool to learn MongoDB commands. Again, I'd recommend viewing all the videos, but you only need to watch videos 3-5 to follow what we're doing.
+[MongoDB Tutorial](https://www.youtube.com/watch?v=ynPAkZyH3R8&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO&index=3): This video playlist is an amazing tool to learn more about MongoDB. Again, I'd recommend viewing all the videos, but you only need to watch videos 3-5 to follow what we're doing.
 
 **If you have any trouble with anything while following these steps, please don't hesitate to contact me on Slack! Hope this helps!**
