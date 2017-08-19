@@ -116,4 +116,24 @@ When importing the MongoDB data to RStudio, it is imperative to consider the siz
 
 Now to load the dataset in RStudio, you must download the dataset into your working directory. I'd recommend that you create another folder within your Documents folder called "Stir Data Analysis" for future use with R. 
 
-Next, create a R Script file (shown below) and save it to your "Stir Data Analysis" folder. ![img](https://github.com/adgoradia/newGitTest/blob/master/image%20(1).png)
+Next, create a R Script file (you can name it whatever you want - shown below) and save it to your "Stir Data Analysis" folder. 
+
+![img](https://github.com/adgoradia/newGitTest/blob/master/image%20(1).png)
+
+Then, download the excel file that I sent ("allVenues.csv") with all the data from the venues into the "Stir Data Analysis" folder as well.
+
+Run the following line of code in R:
+```
+setwd("/Users/YourName/Documents/Stir Data Analysis")
+```
+###### This line sets your working directory to this folder. From here, you can load all datasets into RStudio.
+
+Next, run this line of code:
+```
+data <- read.csv("allVenues.csv")
+```
+###### This line loads the entire excel file into a dataframe in RStudio
+
+You're all set! You now have a dataframe named "data" with all the venue data and you can start analyzing the data through generating graphical displays and making cool new insights!
+
+# Helpful Resources
