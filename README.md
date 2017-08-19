@@ -132,7 +132,7 @@ Next, run this line of code:
 ```
 data <- read.csv("allVenues.csv")
 ```
-###### This line loads the entire excel file into a dataframe in RStudio
+###### This line loads the entire excel file into a dataframe in RStudio. It should show up in your "Global Environments" section. If you click the dataframe, it will open up on a new tab within the IDE.
 
 You're all set! You now have a dataframe named "data" with all the venue data and you can start analyzing the data through generating graphical displays and making cool new insights!
 
