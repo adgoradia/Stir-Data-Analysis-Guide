@@ -69,14 +69,14 @@ AFter installing OpenVPN, you'll need to contact Mike to help you get setup with
 After you receive your connection script, copy that file into your 'config' folder within the OpenVPN folder.
 
 ### Windows Users
-Your OpenVPN folder should have saved to your "C:/Program Files/" directory. In command prompt, navigate to the 'config' folder in your OpenVPN folder through using these commands:
+Your OpenVPN folder should have saved to your "C:\Program Files\" directory. In command prompt, navigate to the 'config' folder in your OpenVPN folder through using these commands:
 ```
 cd..
 cd name of folder
 ```
-*The "cd.." command will help you backtrack exactly one directory. For example, if you're in the "C:/Program Files/" directory, the "cd.." command will take you to the "C:/" directory.* 
+*The "cd.." command will help you backtrack exactly one directory. For example, if you're in the "C:\Program Files\" directory, the "cd.." command will take you to the "C:\" directory.* 
 
-*The "cd name of folder" command will take you into a folder within the directory that you're in. For example, "cd Program Files" will take you to the "C:/Program Files" directory if you're in the "C:/" directory when you run the command.*
+*The "cd name of folder" command will take you into a folder within the directory that you're in. For example, "cd Program Files" will take you to the "C:\Program Files" directory if you're in the "C:\" directory when you run the command.*
 
 Once you've navigated to the 'config' folder within the OpenVPN folder, run the following line on command prompt
 ```
@@ -104,6 +104,6 @@ From now on, to connect/disconnect to the server, simply click on the OpenVPN ic
 # Connecting to MongoDB through Studio3T
 Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database!
 
-![information](https://files.slack.com/files-tmb/T3PGF0TDW-F6K7SCQCT-0ec6699f56/image_720.png)
+![information](C:\Users\Ayush\Downloads\image)
 
-After connecting, you should see the database and its collections on the left side of Studio3T. ![view](https://files.slack.com/files-tmb/T3PGF0TDW-F6JL7M1C0-070d588653/image_720.png)
+After connecting, you should see the database and its collections on the left side of Studio3T. ![view](C:\Users\Ayush\Downloads\image(1))
