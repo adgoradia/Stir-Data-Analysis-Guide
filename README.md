@@ -102,8 +102,7 @@ Keep clicking continue and choose a destination to install the software to. Afte
 From now on, to connect/disconnect to the server, simply click on the OpenVPN icon and select "connect" or "disconnect".
 
 # Connecting to MongoDB through Studio3T
-Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database!
+Studio3T provides a user-friendly way to make queries, view data, and sort data. When starting Studio3T, click connect and enter the following information. Note: you must be connected to the VPN in order to be able to access the database! 
+![image](C:\Users\Ayush\Downloads\image.png)
 
-![information](C:\Users\Ayush\Downloads\image)
-
-After connecting, you should see the database and its collections on the left side of Studio3T. ![view](C:\Users\Ayush\Downloads\image(1))
+After connecting, you should see the database and its collections on the left side of Studio3T. ![image](‪C:\Users\Ayush\Downloads\imag.png)
