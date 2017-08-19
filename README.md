@@ -56,3 +56,17 @@ To find out which version of Windows you are running, enter the following comman
 wmic os get caption
 wmic os get osarchitecture
 ```
+
+# Installing Studio3T
+To work with our MongoDB data, we will use Studio3T, an open-source MongoDB client with a built-in shell to write scripts. Studio 3T can be downloaded [here](https://studio3t.com/download/). Although that the download states that Studio3T is free for only 14 days, it is actually free forever for non-commercial use! After opening up Studio3T, you will see a message bar at the bottom with an option to select usage types, so simply select "non-commercial" and you should be all set!
+
+
+# Installing OpenVPN
+The last thing we need to install is OpenVPN, a tunnel that allows us to access to the MongoDB server through a secure connection. For Windows users, use [this link](https://openvpn.net/index.php/download/community-downloads.html) to install OpenVPN. If you're running iOS, the installation documentation can be found [here](https://openvpn.net/index.php/open-source/documentation/howto.html).
+
+AFter installing OpenVPN, you'll need to contact Mike to help you get setup with a script for your connection. The script should have an ".ovpn" extension.
+
+After you receive your connection script, copy that file into your 'config' folder within the OpenVPN folder.
+
+### Windows Users
+Your OpenVPN folder should have saved to your "C:/Program Files/" directory.
