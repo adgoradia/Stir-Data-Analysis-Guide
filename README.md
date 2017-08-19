@@ -111,4 +111,11 @@ data <- read.csv("allVenues.csv")
 
 You're all set! You now have a dataframe named "data" with all the venue data and you can start analyzing the data through generating graphical displays and making cool new insights!
 
+Please refer to the Helpful Resources section below! It has links to all the information you will need (it is copyrighted, so I can't post it on here, but they are all very easy to follow)!
+
 # Helpful Resources
+[Exploratory Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651): This link is a course about data analysis in R, taught by the data scientists at Facebook! I'd recommend going through the entire course if you can; However, to learn most of the information that you need to know for what you'll be doing, you only need to do the first 3 sections.
+
+[ggplot2 Library for RStudio](https://github.com/tidyverse/ggplot2): This link is a GitHub page that describes the entire ggplot2 package for RStudio. It's a really amazing tool for generating visual displays that are both aesthetic and analytically useful. The steps for installing the package are listed, so all you need to do is follow the steps and tips and you'll be set! 
+
+If you have any trouble with anything while following these steps, please don't hesitate to contact me on Slack! Hope this helps!
